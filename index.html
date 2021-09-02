@@ -15,18 +15,26 @@
    <div class="container">
         <div class="navbar">
         <div class="logo">
+           
+            <a href="./index.html">
+               <img src="./images/logo.png" width="125px">
+            </a>
+     
             
-            <img src="./images/logo.png" width="125px">
         </div>
         <nav>
             <ul id="MenuItems">
-                <li><a href="">Home</a></li>
-                 <li><a href="./products.html">Products</a></li>
+                <li><a href="index.html">Home</a></li>
+                 <li><a href="products.html">Products</a></li>
                   <li><a href="">About</a></li>
-                   <li><a href="">Account</a></li>
+                   <li><a href="account.html">Account</a></li>
             </ul>
         </nav>
-        <img src="images/cart.png" width = "30px" height = "30px"alt="">
+        
+        <a href="./cart.html">
+               <img src="images/cart.png" width = "30px" height = "30px"alt=""> 
+        </a>
+     
         <img src="images/menu.png" class="menu-icon" onclick= "menuToggle()">
     </div> 
     
@@ -34,7 +42,7 @@
           <div class="col-2">
               <h1>Dale a tu entrenamiento<br>un Nuevo Estilo!</h1>
               <p>El éxito no siempre se trata de talento sino de la consistencia. El trabajo duro y constante le gana al talento. </p>
-              <a href="" class="btn">Explorar Ahora &#8594;</a>
+              <a href="./products.html" class="btn">Explorar Ahora &#8594;</a>
           </div>
           <div class="col-2">
                 <img src="images/image1.png" >
@@ -296,18 +304,10 @@
             </div>
         </div>
     
-     <script >
-         var MenuItems = document.getElementById("MenuItems");
-         MenuItems.style.maxHeight == "0px";
-          function menuToggle(){
-            if(MenuItems.style.maxHeight == "0px"){
-                MenuItems.style.maxHeight = "200px";
-                }
-            else{
-                MenuItems.style.maxHeight = "0px";
-                }
-          }
-    </script>
+
+  
+  <script src="main.js" language="javascript"></script>
+
 
 </body>
 </html>
