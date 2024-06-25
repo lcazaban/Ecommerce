@@ -1,5 +1,9 @@
-# Ecommerce
-Es una maqueta de un ecommerce creado con html css y un poco de js para pequeñas funcionalidades
+# E-commerce Website
+This repository contains the code for an e-commerce website built using HTML, CSS, and JavaScript.
+
+HTML: Structure and layout of the web pages.
+CSS: Styling and design to make the site visually appealing.
+JavaScript: Interactive elements and functionality.
 
 <h2>link: https://lcazaban.github.io/MyEcommerce/</h2>
 
